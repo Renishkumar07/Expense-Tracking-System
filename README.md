@@ -3,7 +3,6 @@
 A simple **expense tracking application** with a **Streamlit frontend** and a **FastAPI backend**.  
 This project helps users log and visualize their expenses in an intuitive UI.  
 
----
 
 ## 📂 Project Structure
 
@@ -14,6 +13,8 @@ expense-management-system/
 ├── tests/            # Test cases for frontend & backend
 ├── requirements.txt  # Python dependencies
 └── README.md         # Project overview & instructions
+```
+
 
 ## Setup Instructions
 
@@ -22,16 +23,15 @@ expense-management-system/
    git clone https://github.com/yourusername/expense-management-system.git
    cd expense-management-system
    ```
-1. **Install dependencies:**:   
-   ```commandline
+2. **Install dependencies:**:   
+   ```bash
     pip install -r requirements.txt
    ```
-1. **Run the FastAPI server:**:   
-   ```commandline
+3. **Run the FastAPI server:**:   
+   ```bash
     uvicorn backend.server:app --reload
    ```
-1. **Run the Streamlit app:**:   
-   ```commandline
+4. **Run the Streamlit app:**:   
+   ```bash
     streamlit run frontend/app.py
 
-   ```
